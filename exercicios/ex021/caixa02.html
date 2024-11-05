@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            background-color: green;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header {
+            background-color: rgb(173, 173, 173);
+            padding: 10px;
+            margin: 10px;
+        }
+        article {
+            background-color: green;
+            padding: 5px;
+
+        }
+        nav {
+            background-color: green;
+            padding: 3px;
+            box-shadow: 3px 6px 12px 0px rgba(0, 0, 0, 0.603);
+        }
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        article > aside {
+            background-color: white
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.62);
+        }
+        footer {
+            background-color: white;
+            color: white;
+            padding: 1px;
+            margin: 0px;
+            text-align: center;
+        }
+        footer > p {
+            margin: 4px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+            <p>
+                Esportes,politica e tecnologia
+            </p>
+        </section>
+        <section id="Noticias">
+            <article>
+                <h2>Noticias sobre o Brasil.</h2>
+                <p>
+                    O hino da Sociedade Esportiva Palmeiras foi composto em 1949 por Antonio Sergi, maestro compositor e regente da orquestra ítalo-brasileira. Nascido na Itália, o músico naturalizou-se brasileiro e tornou-se bastante conhecido por também atuar nas principais rádios de São Paulo – se transformaria na Rádio Gazeta.
+                </p>
+                <aside>
+                    <p>
+                        Artigo escrito por Gabriel.
+                    </p>
+                </aside>
+            </article>
+            <article>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Desenvolvido por Gabriel.
+        </p>
+
+    </footer>
+</body>
+</html>
