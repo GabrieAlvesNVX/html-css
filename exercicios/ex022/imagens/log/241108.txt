@@ -1,0 +1,6 @@
+08/11/2024 08:17:41: Client update 1.4.0.0
+
+Optimize read information. 
+Fix X509 certificate on Windows server 2012
+Add register in the tool Telegram channel https://t.me/frp247backup
+
