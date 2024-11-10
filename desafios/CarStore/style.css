@@ -1,3 +1,9 @@
 body {
+    height: 98vh;
     background-image: url("imagem/background1.jpg");
+    background-size: cover;
 }
+
+   
+
+    
